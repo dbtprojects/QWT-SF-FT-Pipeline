@@ -6,5 +6,13 @@ sources:
     schema: RAW
     tables:
         - name: customers
-        - name: products
         - name: orders
+        - name: orderdetails
+        - name: suppliers
+        - name: shipments
+
+  - name: QWT_RAWGD
+    database: QWT_ANALYTICS
+    schema: RAW_GD
+    tables:
+      - name: products
